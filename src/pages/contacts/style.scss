@@ -1,0 +1,337 @@
+
+
+.contacts_t{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-size: 48px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+.map{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_sotryd{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-size: 48px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.otdel_sale{
+    display: flex;
+    color: #C83642;
+    font-size: 36px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.sotryd_sale{
+    display: flex;
+    color: #000;
+    font-size: 32px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sotryd_poz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    a{
+        color: #C83642;
+        font-size: 29.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        
+    }
+}
+
+.sotryd_number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a{
+        font-size: 23.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+    }
+}
+
+
+.otdels2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    a{
+        color: #C83642;
+        font-size: 36px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+.sotryd_sale2{
+    display: flex;
+    color: #000;
+    font-size: 32px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sotryd_poz2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    a{
+        color: #C83642;
+        font-size: 29.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        
+    }
+}
+
+.sotryd_number2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    a{
+        font-size: 23.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 935px) {
+
+
+
+
+.contacts_t{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-size: 40px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+.map{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_sotryd{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-size: 32px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.otdel_sale{
+    display: flex;
+    color: #C83642;
+    font-size: 24px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.sotryd_sale{
+    display: flex;
+    color: #000;
+    font-size: 10px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sotryd_poz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    a{
+        color: #C83642;
+        font-size: 9.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        
+    }
+}
+
+.sotryd_number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a{
+        font-size: 9.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+    }
+}
+
+
+.otdels2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    a{
+        color: #C83642;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+.sotryd_sale2{
+    display: flex;
+    color: #000;
+    font-size: 10px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sotryd_poz2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    a{
+        color: #C83642;
+        font-size: 9.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        
+    }
+}
+
+.sotryd_number2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    a{
+        font-size: 9.982px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+    }
+}
+}

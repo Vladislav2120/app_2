@@ -1,0 +1,505 @@
+a{
+    color: #000000;
+    text-decoration: none
+}
+
+.fon {
+    display: flex;
+    flex-direction: column;
+}
+
+.top_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sale_qast{
+    display: flex;
+    width: 795px;
+    height: 81px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 48px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+
+
+.sale_tekst_1{
+    display: flex;
+    color: #000;
+    font-size: 31.971px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    img{
+        display: flex;
+    }
+}
+
+.card{
+    padding: 10px;
+    border: 3px solid #000000;
+}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    &_tekst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        a{
+            display: flex;
+            color: #000;
+            font-size: 48px;
+            font-family: Futura PT;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        span{
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-size: 24px;
+            font-family: Futura PT;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 60px;
+        }
+        
+    }
+    &_img{
+        display: flex;
+        flex: 3 1;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+.auto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.save{
+    display: flex;
+    color: #C83642;
+    font-size: 32px;
+    font-family: Days One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.border_bottom{
+    display: flex;
+    line-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bottom_1{
+    display: flex;
+    width: 389px;
+    height: 309.559px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    padding: 20px;
+    
+}
+
+.bottom_2{
+    display: flex;
+    width: 389px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 9px solid #F2F2F2;
+    padding: 20px;
+}
+
+
+.bottom_3{
+    display: flex;
+    width: 389px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(134deg, #422F66 0%, #60B9A7 100%);
+    img{
+        padding: 40px;
+        width: 60.592px;
+        height: 34.328px;
+        flex-shrink: 0;
+    }
+}
+
+
+.plus{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    span{
+        color: #000;
+        font-size: 24px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+
+.bottom{
+    display: flex;
+    height: 295px;
+    flex-shrink: 0;
+    background: #F1F1F5;
+    &_t{
+        display: flex;
+        color: #000;
+        font-size: 27px;
+        font-family: PT Serif;
+        text-align: left;
+        line-height: 60px;
+        flex-direction: column;
+    }
+    &_img{
+        display: flex;
+        flex: 2 1;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        color: #000;
+        font-size: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    a{
+        color: #000000;
+        text-decoration: none
+    }
+    
+    .fon {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .top_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 320.001px;
+            height: 108.941px;
+            flex-shrink: 0;
+        }
+    }
+    
+    
+    .sale_qast{
+        display: flex;
+        width: 355px;
+        height: 81px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 32px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    
+    
+    
+    .sale_tekst_1{
+        display: flex;
+        color: #000;
+        font-size: 13px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 20px;
+        flex-direction: column;
+        img{
+            display: flex;
+        }
+    }
+    
+    .card{
+        padding: 10px;
+        border: 3px solid #000000;
+        img{
+            width: 95.486px;
+            height: 56.292px;
+            flex-shrink: 0;
+        }
+    }
+    
+    
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        flex-direction: column;
+        &_tekst{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            a{
+                display: flex;
+                color: #000;
+                font-size: 18px;
+                font-family: Futura PT;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            span{
+                display: flex;
+                padding: 20px;
+                justify-content: center;
+                align-items: center;
+                color: #000;
+                font-size: 18px;
+                font-family: Futura PT;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 40px;
+            }
+            
+        }
+        &_img{
+            display: flex;
+            flex: 3 1;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 319px;
+                height: 223.427px;
+                flex-shrink: 0;
+            }
+        }
+    }
+    
+    
+    
+    .auto{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .ydalit{
+        display: none;
+    }
+    
+    
+    .save{
+        display: flex;
+        color: #C83642;
+        font-size: 21px;
+        font-family: Days One;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.96px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    
+    
+    .border_bottom{
+        display: flex;
+        line-height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .bottom_1{
+        display: flex;
+        width: 389px;
+        height: 309.559px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        border-radius: 10px;
+        background: #F8F8F8;
+        padding: 20px;
+        
+    }
+    
+    .bottom_2{
+        display: flex;
+        width: 389px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 50px;
+        border-radius: 10px;
+        border: 9px solid #F2F2F2;
+        padding: 20px;
+    }
+    
+    
+    .bottom_3{
+        display: flex;
+        width: 389px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 50px;
+        color: #fff;
+        border-radius: 10px;
+        background: linear-gradient(134deg, #422F66 0%, #60B9A7 100%);
+        img{
+            padding: 40px;
+            width: 60.592px;
+            height: 34.328px;
+            flex-shrink: 0;
+        }
+    }
+    
+    
+    .plus{
+        display: flex;
+        padding-top: 50px;
+        justify-content: space-around;
+        flex-direction: column;
+        span{
+            color: #000;
+            font-size: 24px;
+            font-family: Futura PT;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        img{
+            width: 44.299px;
+            height: 59.562px;
+            flex-shrink: 0;
+        }
+    }
+    
+    
+    .bottom{
+        display: flex;
+        height: 295px;
+        flex-shrink: 0;
+        background: #F1F1F5;
+        &_t{
+            display: flex;
+            color: #000;
+            font-size: 20px;
+            font-family: PT Serif;
+            text-align: left;
+            line-height: 60px;
+            flex-direction: column;
+        }
+        &_img{
+            display: flex;
+            flex: 2 1;
+            align-items: flex-end;
+            justify-content: space-around;
+            flex-direction: column;
+            color: #000;
+            font-size: 16px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+        }
+    }
+}
